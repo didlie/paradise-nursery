@@ -228,8 +228,8 @@ function ProductList(props) {
         }
     ];
     const styleObj={
-        backgroundColor: '#4CAF50',
-        color: '#fff!important',
+        backgroundColor: '#4CAF51',
+        color: '#ccc!important',
         padding: '15px',
         display: 'flex',
         justifyContent: 'space-between',
@@ -258,7 +258,6 @@ const handlePlantsClick = (e) => {
 };
 
    const handleContinueShopping = (e) => {
-    console.log("clicked");
     e.preventDefault();
     setShowCart(false);
   };
